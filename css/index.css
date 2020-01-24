@@ -299,3 +299,18 @@ footer {
     flex-direction: column-reverse;
   }
 }
+@media (max-width: 500px) {
+  .container,
+  .home {
+    background-color: black;
+    width: 100%;
+  }
+  .container .space-images,
+  .home .space-images {
+    width: 100%;
+  }
+  .container .space-images img,
+  .home .space-images img {
+    width: 70%;
+  }
+}
