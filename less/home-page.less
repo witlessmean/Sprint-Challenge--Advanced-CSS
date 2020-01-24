@@ -57,8 +57,22 @@
         margin-bottom: 26px;
       }
 
-      .btn {
+      .signUpButton { 
+        .button(150px, 55px,#23293B, 8px);
+        .flexer();
+        font-size: 2rem;
+        color: white;
+        
+        
+      
       }
+
+      .signUpButton:hover{ background-color: white; 
+                            color: #23293B;
+                            transition: ease 2s;
+      
+      }
+
     }
 
     .walk-img {
@@ -72,4 +86,44 @@
       }
     }
   }
+
 }// home
+
+.heroContainer { 
+  .flexer();
+}
+
+@media @phone { 
+  .navAFlex {
+width: 100vw;
+  }
+}
+
+@media @phone {
+  header img { 
+    width: 100%;
+  } 
+}
+
+ @media @phone { 
+  .sky, .launch 
+  { display: none;
+} 
+  }
+
+@media @phone {
+  .space-images { 
+    flex-direction: column;
+  align-items: center; 
+  }
+}
+
+@media @phone { 
+  .walk {
+    .flexer();
+    flex-direction: column-reverse;
+  }
+}
+
+
+
